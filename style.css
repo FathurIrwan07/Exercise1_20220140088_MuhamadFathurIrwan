@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap");
+
+body {
+  background-color: #50727b;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Navbar */
+nav {
+  background-color: #35374b;
+  padding: 15px 0;
+  margin-bottom: 90px;
+}
+
+.wrapper {
+  width: 90%; /* Menggunakan lebar relatif untuk responsivitas */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  flex: 1;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: flex-end; /* Mengatur agar menu berada di sebelah kanan */
+  list-style-type: none;
+}
+
+.menu ul li {
+  margin-left: 20px; /* Jarak antara setiap item menu */
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Madimi One", sans-serif;
+  font-size: 1.2rem;
+}
+
+.navbar-extra {
+  display: flex;
+}
+
+.navbar-extra a {
+  margin-left: 20px; /* Jarak antara setiap ikon */
+  color: #ffffff;
+}
+
+.container {
+  max-width: 900px; /* Sesuaikan dengan lebar konten */
+  margin: 0 auto;
+  border: 3px solid black;
+  border-radius: 60px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  padding: 60px;
+}
+
+.container h1 {
+  font-family: "Bowlby One SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.konten1 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.konten1 img {
+  margin-right: 20px;
+  max-width: 400px;
+}
+
+.konten1 p {
+  flex: 1;
+}
+
+.konten2 p {
+  margin-bottom: 30px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center; /* Mengatur agar konten berada di tengah secara horizontal */
+  gap: 20px; /* Jarak antara gambar */
+  margin-bottom: 30px;
+}
+
+.menu-card {
+  margin: 0px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: rgba(244, 12, 146, 0.8);
+  color: #ffff;
+  font-family: "Madimi One", sans-serif;
+  font-size: large;
+  margin-top: 20px;
+}
